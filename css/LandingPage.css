@@ -1,0 +1,24 @@
+body {
+  font-family: "Public Sans", sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+@media (min-width: 992px) {
+        .step-arrow {
+            position: relative;
+        }
+    }
+
+/* Card Hover Effect */
+.card.h-100 {
+  transition: transform 0.2s, box-shadow 0.2s;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+.card.h-100:hover {
+  transform: translateY(-8px) scale(1.03);
+  box-shadow: 0 8px 24px rgba(16, 185, 129, 0.15);
+  border-color: #198754;
+}
