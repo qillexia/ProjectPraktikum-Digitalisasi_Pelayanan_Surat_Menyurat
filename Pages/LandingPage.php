@@ -11,7 +11,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;600;800&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/LandingPage.css">
-    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
 </head>
 
 <body class="bg-light">
@@ -44,10 +43,10 @@
     <main style="margin-top: 120px;">
 
         <!-- Hero Section -->
-        <section class="py-5" data-aos="fade-up">
+        <section class="py-5">
             <div class="container py-5">
                 <div class="row align-items-center gy-5">
-                    <div class="col-lg-6 text-center text-lg-start" data-aos="fade-right">
+                    <div class="col-lg-6 text-center text-lg-start">
                         <h1 class="display-5 fw-bold text-dark mb-3">
                             Digitalisasi Pelayanan Surat Menyurat
                         </h1>
@@ -55,11 +54,11 @@
                             Sistem administrasi Balai Desa Windusengkahan. Cepat, transparan, dan efisien untuk seluruh warga.
                         </p>
                         <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-lg-start">
-                            <a href="LoginPage.php" class="btn btn-success btn-lg px-3 gap-2 fs-6" data-aos="fade-up" data-aos-delay="200">Ajukan Surat</a>
-                            <a href="#" class="btn btn-outline-success btn-lg px-3 fs-6" data-aos="fade-up" data-aos-delay="300">Pelajari Alur</a>
+                            <a href="LoginPage.php" class="btn btn-success btn-lg px-3 gap-2 fs-6">Ajukan Surat</a>
+                            <a href="#" class="btn btn-outline-success btn-lg px-3 fs-6">Pelajari Alur</a>
                         </div>
                     </div>
-                    <div class="col-lg-5 offset-lg-1" data-aos="fade-left">
+                    <div class="col-lg-5 offset-lg-1">
                         <img src="../components/Assets/image.jpeg" alt="Kantor Desa Windusengkahan" class="img-fluid rounded-5 shadow-lg" style="width: 100%; height: 350px; object-fit: cover;">
                     </div>
                 </div>
@@ -67,7 +66,7 @@
         </section>
 
         <!-- Alur Layanan -->
-        <section id="alur-layanan" class="py-5 bg-white" data-aos="fade-up">
+        <section id="alur-layanan" class="py-5 bg-white">
             <div class="container py-5">
                 <div class="text-center mb-5">
                     <h2 class="fw-bold">Alur Pelayanan</h2>
@@ -75,7 +74,7 @@
                 </div>
 
                 <div class="row g-4 text-center">
-                    <div class="col-md-6 col-lg-3 step-arrow" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="col-md-6 col-lg-3 step-arrow">
                         <div class="card h-100 border-0 shadow-sm bg-light p-4 rounded-4 position-relative z-1">
                             <div class="d-flex align-items-center justify-content-center bg-success-subtle text-success rounded-circle mb-4 mx-auto"
                                 style="width: 60px; height: 60px;">
@@ -86,7 +85,7 @@
                         </div>
                     </div>
 
-                    <div class="col-md-6 col-lg-3 step-arrow" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="col-md-6 col-lg-3 step-arrow">
                         <div class="card h-100 border-0 shadow-sm bg-light p-4 rounded-4 position-relative z-1">
                             <div class="d-flex align-items-center justify-content-center bg-success-subtle text-success rounded-circle mb-4 mx-auto"
                                 style="width: 60px; height: 60px;">
@@ -97,7 +96,7 @@
                         </div>
                     </div>
 
-                    <div class="col-md-6 col-lg-3 step-arrow" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="col-md-6 col-lg-3 step-arrow">
                         <div class="card h-100 border-0 shadow-sm bg-light p-4 rounded-4 position-relative z-1">
                             <div class="d-flex align-items-center justify-content-center bg-success-subtle text-success rounded-circle mb-4 mx-auto"
                                 style="width: 60px; height: 60px;">
@@ -108,7 +107,7 @@
                         </div>
                     </div>
 
-                    <div class="col-md-6 col-lg-3" data-aos="zoom-in" data-aos-delay="400">
+                    <div class="col-md-6 col-lg-3">
                         <div class="card h-100 border-0 shadow-sm bg-light p-4 rounded-4 position-relative z-1">
                             <div class="d-flex align-items-center justify-content-center bg-success-subtle text-success rounded-circle mb-4 mx-auto"
                                 style="width: 60px; height: 60px;">
@@ -124,7 +123,7 @@
         </section>
 
         <!-- Fitur Utama -->
-        <section id="fitur" class="py-5" data-aos="fade-up">
+        <section id="fitur" class="py-5">
             <div class="container py-5">
                 <div class="text-center mb-5">
                     <h2 class="fw-bold">Fitur Utama</h2>
@@ -132,7 +131,7 @@
                 </div>
 
                 <div class="row g-5">
-                    <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="col-md-4">
                         <div class="text-center p-4">
                             <div class="text-success mb-3">
                                 <span class="material-symbols-outlined fs-2 d-block fs-1">groups</span>
@@ -141,7 +140,7 @@
                             <p class="text-secondary">Pengajuan surat kapan saja tanpa antri.</p>
                         </div>
                     </div>
-                    <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="col-md-4">
                         <div class="text-center p-4">
                             <div class="text-success mb-3">
                                 <span class="material-symbols-outlined fs-3 d-block fs-1">database</span>
@@ -150,7 +149,7 @@
                             <p class="text-secondary">Penyimpanan data aman dan terpusat.</p>
                         </div>
                     </div>
-                    <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="col-md-4">
                         <div class="text-center p-4">
                             <div class="text-success mb-3">
                                 <span class="material-symbols-outlined fs-3 d-block fs-1">admin_panel_settings</span>
@@ -167,7 +166,7 @@
 
     <!-- Footer -->
     <footer id="contact" class="text-white pt-5 pb-4 mt-5 border-top border-4 border-warning"
-        style="background-color: #0f5233;" data-aos="fade-up">
+        style="background-color: #0f5233;">
         <div class="container">
 
             <div class="row justify-content-center text-center text-md-start ms-5" style="gap: 20rem;">
@@ -205,10 +204,6 @@
         </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
-    <script>
-      AOS.init();
-    </script>
 </body>
 
 </html>
